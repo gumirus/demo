@@ -5,6 +5,7 @@
 2. &#9742; _Phone_: +375292156254
 3. &#9993; _Email_: anita.sushko545@gmail.com
 4. &#127760; _GitHub_: [AnitaSushko](https://github.com/AnitaSushko)
+5. &#128172; _Discord_: Anita Sushko (@AnitaSushko)
 
 ## **Education**
 ### **Belarusian State University** 
@@ -26,3 +27,11 @@ Private lessons in teaching Russian to foreign students.<br />
 ### **Translator** 
 _01 March 2021 - Today_<br />
 Translation of documents from Chinese into Russian, from Russian into Chinese, from English into Russian. Meeting foreign applicants at the airport, introducing students to the university administration, assistance in paperwork, further accompanying and adaptation of students in an unfamiliar socio-cultural environment.<br />
+## **Code Example**
+```
+function multiply(a, b){
+  return a * b
+}
+```
+## **Projects**
+### [RsSchool-cv](https://github.com/AnitaSushko/rsschool-cv)
