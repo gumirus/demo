@@ -18,8 +18,9 @@ Specialty: Oriental (Chinese) Philology.
 Chinese - **HSK  4**, English - **B2**;<br />
 2. Communication skills;
 3. Ability to learn;
-4. Clear planning of work tasks, their timely implementation.
-## **Experience**
+4. Clear planning of work tasks, their timely implementation.<br />
+
+## **Experience**<br />
 ### **Teacher**<br />
 _01 March 2021 - 01 November 2021_<br />
 Private lessons in teaching Russian to foreign students.<br />
