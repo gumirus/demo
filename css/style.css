@@ -10,6 +10,9 @@ ul {
     flex-direction: column;
     justify-content: start;
     align-items: stretch;
+    font-family: 'Space Grotesk', sans-serif;
+    gap: 100px;
+    background-color: var(--main-bg);
 }
 
 .link-list {
@@ -126,4 +129,24 @@ ul {
 .img-container {
     position: relative;
     z-index: 2;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rsschool-img {
+    height: 25px;
 }
