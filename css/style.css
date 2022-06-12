@@ -1,3 +1,79 @@
-.my-custom-class { 
-    padding: 20px;
+body, h4, ul {
+    margin: 0;
 }
+
+.body-content {
+    padding: 10px 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;   
+}
+
+.header-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: stretch;
+}
+
+:root {
+    --main-pink: #DCACB5;
+    --main-blue: #CDCBED;
+    --main-card: #FAF8F3;
+    --main-bg: #FEE9ED;
+  }
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-card);
+    border-radius: 45px;
+    padding: 30px 40px;
+    position: relative;
+    min-width: 60%;
+    max-width: 60%;
+}
+
+.section-subinfo {
+    display: flex;
+    gap: 5px;
+}
+
+.info-text {
+    flex: 1 1 calc(100% - 12px);
+    display: flex;
+    flex-direction: column;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: var(--main-pink);
+    height: 12px;
+    flex: 1 1 12px;
+}
+
