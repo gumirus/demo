@@ -1,18 +1,36 @@
-body,
-h4,
-ul {
+:root {
+    --main-pink: #F1C5CD;
+    --main-blue: #CDCBED;
+    --main-card: #FAF8F3;
+    --main-bg: #FEE9ED;
+    --dark-blue: #7A77BA;
+    --black: #191717;
+}
+
+body, ul, h1 {
     margin: 0;
 }
 
 .body-content {
-    padding: 10px 8%;
+    padding: 10px 11%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: stretch;
     font-family: 'Space Grotesk', sans-serif;
-    gap: 100px;
+    gap: 130px;
     background-color: var(--main-bg);
+    font-size: 16px;
+    color: var(--black);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.link:hover, link:active {
+    color: var(--black);
 }
 
 .link-list {
@@ -23,12 +41,18 @@ ul {
     gap: 10px;
     list-style-type: none;
 }
+ 
+.skills-ul {
+    list-style-type: none;
+    padding-left: 0;
+}
 
 .header-info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .main-content {
@@ -37,13 +61,6 @@ ul {
     gap: 50px;
     justify-content: start;
     align-items: stretch;
-}
-
-:root {
-    --main-pink: #DCACB5;
-    --main-blue: #CDCBED;
-    --main-card: #FAF8F3;
-    --main-bg: #FEE9ED;
 }
 
 .section-content {
@@ -88,6 +105,7 @@ ul {
     align-items: start;
     justify-content: start;
     gap: 10px;
+
 }
 
 .section-greetings {
@@ -124,11 +142,10 @@ ul {
     right: 0;
     top: 20%;
     background-color: var(--main-pink);
-}
+} 
 
 .img-container {
     position: relative;
-    z-index: 2;
 }
 
 .contact-list {
@@ -149,4 +166,19 @@ ul {
 
 .rsschool-img {
     height: 25px;
+}
+
+.greetings-first-line {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: var(--dark-blue);
+}
+
+.greetings-second-line {
+    color: var(--dark-blue);
+}
+
+.greetings-third-line {
+    font-weight: lighter;
+    font-size: 0.9em;
 }

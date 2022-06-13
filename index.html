@@ -6,7 +6,8 @@
     <meta name="keywords" content="js css html developer front-end cv">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="body-content">
@@ -15,22 +16,22 @@
         <nav>
             <ul class="link-list">
                 <li>
-                    <a href="#education">Education</a>
+                    <a class="link" href="#education">Education</a>
                 </li>
                 <li>
-                    <a href="#experience">Experience</a>
+                    <a class="link" href="#experience">Experience</a>
                 </li>
                 <li>
-                    <a href="#skills">Skills</a>
+                    <a class="link" href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a class="link" href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#code-example">Code example</a>
+                    <a class="link" href="#code-example">Code example</a>
                 </li>
                 <li>
-                    <a href="#contacts">Contacts</a>
+                    <a class="link" href="#contacts">Contacts</a>
                 </li>
             </ul>
         </nav>
@@ -38,18 +39,27 @@
     <main class="main-content">
         <section class="section-greetings">
             <div class="greetings">
-                <span><a name="greetings">I am Anita Sushko. Juniour Frontend developer</a></span>
-                <span>I have learned Chinese. <br>
-                    Now it’s time for HTML, CSS and JS.</span>
-                <span>Young Developer who is looking for interesting projects!<br>
-                    I am currently in Minsk, but soon will be moving to Gdansk, Poland.</span>
+                <span class="greetings-first-line">
+                    <a name="greetings">I am Anita Sushko. Juniour Frontend developer</a>
+                </span>
+                <h1>I have learned Chinese.<br>
+                    Now it’s time for
+                    <span class="greetings-second-line">HTML</span>, <span class="greetings-second-line">CSS</span><br>
+                    and <span class="greetings-second-line">JS</span>.
+                </h1>
+                <span class="greetings-third-line">
+                    Young Developer who is looking for interesting projects!<br>
+                    I am currently in Minsk, but soon will be moving to Gdansk, Poland.
+                </span>
             </div>
             <div class="img-container">
-                <img src="img/cv photo.png" class="main-img" />
+                <img alt="Profile photo" src="img/cv photo.png" class="main-img" />
             </div>
         </section>
         <section class="section-content">
-            <a name="education"><h3>Education</h3></a>
+            <a name="education">
+                <h2>Education</h2>
+            </a>
             <div class="section-info">
                 <div class="section-subinfo">
                     <div class="circle"></div>
@@ -70,7 +80,9 @@
             </div>
         </section>
         <section class="section-content">
-            <a name="experience"><h3>Experience</h3></a>
+            <a name="experience">
+                <h2>Experience</h2>
+            </a>
             <div class="section-info">
                 <div class="section-subinfo">
                     <div class="circle"></div>
@@ -96,38 +108,43 @@
             </div>
         </section>
         <section class="section-content">
-            <a name="skills"><h3>Skills</h3></a>
+            <a name="skills">
+                <h2>Skills</h2>
+            </a>
             <div class="section-info">
                 <div class="section-subinfo">
                     <div class="circle"></div>
-                    <div class="info-text">
-                        <span>Languages</span>
-                        <span>Chinese - HSK 4, English - B2.</span>
-                    </div>
-                </div>
-                <div class="section-subinfo">
-                    <div class="circle"></div>
-                    <div class="info-text">
-                        <span>HTML, CSS, communication skills, ability to learn,
-                            clear planning of work tasks, their timely implementation.</span>
-                    </div>
+                    <ul class="info-text skills-ul">
+                        <li>Languages
+                            <ul>
+                                <li>Chinese - HSK 4</li>
+                                <li>English - B2</li>
+                            </ul>
+                        </li>
+                        <li> HTML, CSS, communication skills, ability to learn,
+                            clear planning of work tasks, their timely implementation</li>
+                    </ul>
                 </div>
             </div>
         </section>
         <section class="section-content">
-            <a name="projects"><h3>Projects</h3></a>
+            <a name="projects">
+                <h2>Projects</h2>
+            </a>
             <div class="section-info">
                 <div class="section-subinfo">
                     <div class="circle"></div>
                     <div class="info-text">
                         <span>RS School - CV</span>
-                        <a>CV in html with css.</a>
+                        <a class="link" href="https://anitasushko.github.io/rsschool-cv/cv">CV in md</a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-content">
-            <a name="code-example"><h3>Code example</h3></a>
+            <a name="code-example">
+                <h2>Code example</h2>
+            </a>
             <div class="section-info">
                 <div class="section-subinfo">
                     <div class="circle"></div>
@@ -144,13 +161,14 @@
         <a name="contacts"><span>© 2021 by Anita Sushko</span></a>
         <ul class="contact-list">
             <li>
-                <a href="https://github.com/AnitaSushko">GitHub</a>
+                <a class="link" href="https://github.com/AnitaSushko">GitHub</a>
             </li>
             <li>
-                <a href="mailto:anita.sushko545@gmail.com">Gmail</a>
+                <a class="link" href="mailto:anita.sushko545@gmail.com">Gmail</a>
             </li>
             <li>
-                <a href="https://rs.school/js/"><img class="rsschool-img" src="https://rs.school/images/rs_school_js.svg"></a>
+                <a class="link" href="https://rs.school/js/"><img class="rsschool-img"
+                        src="https://rs.school/images/rs_school_js.svg"></a>
             </li>
         </ul>
     </footer>
