@@ -97,6 +97,7 @@ body, ul, h1 {
     background-color: var(--main-pink);
     height: 12px;
     flex: 1 1 12px;
+    margin-top: 4px;
 }
 
 .greetings {
@@ -181,4 +182,23 @@ body, ul, h1 {
 .greetings-third-line {
     font-weight: lighter;
     font-size: 0.9em;
+}
+
+.info-text-header {
+    font-weight: 550;
+    font-size: 1.2em;
+}
+
+.info-text-date {
+    font-size: 0.8em;
+    font-weight: 370;
+    color: var(--dark-blue);
+}
+
+.info-text-description {
+    text-align: justify;
+}
+
+.cv-link {
+    text-decoration: underline;
 }
