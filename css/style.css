@@ -118,6 +118,8 @@ body, ul, h1 {
 
 .main-img {
     z-index: 3;
+    width: 310px;
+    height: 395px;
 }
 
 .img-container::before {
