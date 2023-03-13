@@ -1,1 +1,1 @@
-https://gumitus.github.io/demo_rsschool-cv/
+# [DEMO](https://gumirus.github.io/demo_rsschool-cv)
