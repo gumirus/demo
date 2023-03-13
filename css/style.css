@@ -1,206 +1,225 @@
 :root {
-    --main-pink: #F1C5CD;
-    --main-blue: #CDCBED;
-    --main-card: #FAF8F3;
-    --main-bg: #FEE9ED;
-    --dark-blue: #7A77BA;
-    --black: #191717;
+  --main-pink: #f3cf1d;
+  --main-blue: #adf5ba;
+  --main-card: #c9cfc1;
+  --main-bg: #b3b9f2;
+  --dark-blue: #7a77ba;
+  --black: #191717;
 }
 
-body, ul, h1 {
-    margin: 0;
+body,
+ul,
+h1 {
+  margin: 0;
 }
 
 .body-content {
-    padding: 10px 11%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: stretch;
-    font-family: 'Space Grotesk', sans-serif;
-    gap: 130px;
-    background-color: var(--main-bg);
-    font-size: 16px;
-    color: var(--black);
+  padding: 10px 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  font-family: "Space Grotesk", sans-serif;
+  gap: 130px;
+  background-color: var(--main-bg);
+  font-size: 16px;
+  color: var(--black);
 }
 
 .link {
-    text-decoration: none;
-    color: var(--black);
+  text-decoration: none;
+  color: var(--black);
 }
 
-.link:hover, link:active {
-    color: var(--black);
+.link:hover,
+link:active {
+  color: var(--black);
 }
 
 .link-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    gap: 10px;
-    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
 }
- 
+
 .skills-ul {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .header-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .main-content {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    justify-content: start;
-    align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: start;
+  align-items: stretch;
 }
 
 .section-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
 }
 
 .section-info {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--main-card);
-    border-radius: 45px;
-    padding: 30px 40px;
-    position: relative;
-    min-width: 60%;
-    max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-card);
+  border-radius: 45px;
+  padding: 30px 40px;
+  position: relative;
+  min-width: 60%;
+  max-width: 60%;
 }
 
 .section-subinfo {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .info-text {
-    flex: 1 1 calc(100% - 12px);
-    display: flex;
-    flex-direction: column;
+  flex: 1 1 calc(100% - 12px);
+  display: flex;
+  flex-direction: column;
 }
 
 .circle {
-    border-radius: 50%;
-    background-color: var(--main-pink);
-    height: 12px;
-    flex: 1 1 12px;
-    margin-top: 4px;
+  border-radius: 50%;
+  background-color: var(--main-pink);
+  height: 12px;
+  flex: 1 1 12px;
+  margin-top: 4px;
 }
 
 .greetings {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    gap: 10px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
 }
 
 .section-greetings {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .main-img {
-    z-index: 3;
-    width: 310px;
-    height: 395px;
+  z-index: 3;
+  width: 310px;
+  height: 395px;
 }
 
 .img-container::before {
-    content: '';
-    position: absolute;
-    top: 30%;
-    right: 0;
-    background-color: var(--main-blue);
-    width: 120%;
-    height: 70%;
-    border-radius: 5%;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: 30%;
+  right: 0;
+  background-color: var(--main-blue);
+  width: 120%;
+  height: 70%;
+  border-radius: 5%;
+  z-index: -1;
 }
 
-
 .img-container::after {
-    content: '';
-    position: absolute;
-    width: 135%;
-    height: 230px;
-    border-radius: 6%;
-    z-index: -2;
-    right: 0;
-    top: 20%;
-    background-color: var(--main-pink);
-} 
+  content: "";
+  position: absolute;
+  width: 135%;
+  height: 230px;
+  border-radius: 6%;
+  z-index: -2;
+  right: 0;
+  top: 20%;
+  background-color: var(--main-pink);
+}
 
 .img-container {
-    position: relative;
+  position: relative;
 }
 
 .contact-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    gap: 10px;
-    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  list-style-type: none;
 }
 
 .footer-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .rsschool-img {
-    height: 25px;
+  height: 25px;
 }
 
 .greetings-first-line {
-    font-weight: bold;
-    font-size: 0.8em;
-    color: var(--dark-blue);
+  font-weight: bold;
+  font-size: 0.8em;
+  color: var(--dark-blue);
 }
 
 .greetings-second-line {
-    color: var(--dark-blue);
+  color: var(--dark-blue);
 }
 
 .greetings-third-line {
-    font-weight: lighter;
-    font-size: 0.9em;
+  font-weight: lighter;
+  font-size: 0.9em;
 }
 
 .info-text-header {
-    font-weight: 550;
-    font-size: 1.2em;
+  font-weight: 550;
+  font-size: 1.2em;
 }
 
 .info-text-date {
-    font-size: 0.8em;
-    font-weight: 370;
-    color: var(--dark-blue);
+  font-size: 0.8em;
+  font-weight: 370;
+  color: var(--dark-blue);
 }
 
 .info-text-description {
-    text-align: justify;
+  text-align: justify;
 }
 
 .cv-link {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media (min-width: 820px) {
+  .container {
+    max-width: 60%;
+  }
+
+  .container-title {
+    font-size: 3rem;
+  }
+
+  .flex {
+    font-size: 1.5rem;
+  }
+}
+
+.container {
+  min-width: 100%;
 }

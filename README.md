@@ -1,1 +1,1 @@
-https://AnitaSushko.github.io/rsschool-cv/
+https://gumitus.github.io/rsschool-cv/
