@@ -1,1 +1,1 @@
-https://gumitus.github.io/rsschool-cv/
+https://gumitus.github.io/demo_rsschool-cv/
