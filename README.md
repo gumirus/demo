@@ -30,7 +30,6 @@ function multiply(a, b){
 ```
 
 ## **Projects**
-
-### [RsSchool-cv](https://github.com/gumirus/rsschool-cv)
+//### [RsSchool-cv](https://github.com/gumirus/rsschool-cv)
 
 # [DEMO](https://gumirus.github.io/demo_rsschool-cv)
