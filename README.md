@@ -16,10 +16,10 @@
 
 ## **Experience**<br />
 
-### **Teacher**<br />
+### **Traider**<br />
 
 _01 March 2021 - 01 November 2021_<br />
-Private lessons in teaching Russian to foreign students.<br />
+Stock trading, hobby.<br />
 
 ## **Code Example**
 
