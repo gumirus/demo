@@ -121,7 +121,7 @@ link:active {
 .main-img {
   z-index: 3;
   width: 310px;
-  height: 395px;
+  height: 310px;
 }
 
 .img-container::before {
