@@ -3,7 +3,7 @@
   --main-blue: #adf5ba;
   --main-card: #fafafa;
   --main-bg: #d7dceb;
-  --dark-blue: #7a77ba;
+  --blue: #0b02c2;
   --black: #191717;
 }
 
@@ -166,20 +166,22 @@ link:active {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
-.rsschool-img {
-  height: 25px;
+.ResultUniversity-img {
+  height: 22px;
 }
 
 .greetings-first-line {
   font-weight: bold;
   font-size: 0.8em;
-  color: var(--dark-blue);
+  color: var(--blue);
 }
 
 .greetings-second-line {
-  color: var(--dark-blue);
+  color: var(--blue);
 }
 
 .greetings-third-line {
@@ -195,7 +197,7 @@ link:active {
 .info-text-date {
   font-size: 0.8em;
   font-weight: 370;
-  color: var(--dark-blue);
+  color: var(--blue);
 }
 
 .info-text-description {
@@ -204,6 +206,7 @@ link:active {
 
 .cv-link {
   text-decoration: underline;
+
 }
 
 @media (min-width: 820px) {
