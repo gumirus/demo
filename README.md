@@ -16,20 +16,7 @@
 
 ## **Experience**<br />
 
-### **Traider**<br />
-
-_01 March 2021 - 01 November 2021_<br />
-Stock trading, hobby.<br />
-
-## **Code Example**
-
-```
-function multiply(a, b){
-  return a * b
-}
-```
-
-## **Projects**
+## **Project**
 //### [RsSchool-cv](https://github.com/gumirus/rsschool-cv)
 
 # [DEMO](https://gumirus.github.io/demo_rsschool-cv)
